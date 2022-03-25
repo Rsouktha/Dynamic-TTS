@@ -1,0 +1,54 @@
+body {
+    background-color: #221f1f;
+    margin: 0px;
+    width: 210px;
+    padding-bottom: 10px;
+}
+
+.browse-controls {
+    width: 100%;
+}
+
+.browse-controls button {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+#text-box {
+    float: left;
+    margin-right: 75px;
+}
+
+.main-controls {
+    width: 100%;
+}
+
+.main-controls button {
+    height: 70px;
+    width: 70px;
+    background-color: #221f1f;
+    border: none;
+    float: left;
+}
+
+button:hover {
+    background-color: #2e3233
+}
+
+i {
+    vertical-align: middle;
+}
+
+.volText h3, .speedText h3 {
+    float: left;
+    color: white;
+    padding-left: 5%;
+}
+
+#volume, #speed {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
