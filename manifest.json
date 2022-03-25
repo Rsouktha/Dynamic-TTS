@@ -4,8 +4,14 @@
   "description": "A text reader that reads through comment threads with unique voices in a conversational style",
   "icons": {"48": "icon.png"},
   "permissions": ["activeTab"],
-  "browser_action": {
+  "content_scripts": [
+    {
+      "matches": ["https://developer.mozilla.org/*"],
+      "js": ["miniscreen.js"]
+    }
+  ],
+  "action": {
     "default_popup": "popup.html"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
